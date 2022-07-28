@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+
+body {
+    background-color: rgb(54, 50, 50);
+    color: white;
+    font-family: 'Rubik';
+    margin: 0;
+    display: flex;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    color: rgb(134, 134, 134);
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(134, 134, 134);;
+}
+
+a:hover {
+    transition: all .4s;
+    color: white
+}
+
+.burger-menu {
+    width: 50px; 
+    height: 50px;
+    background-color: rgb(120, 195, 241);
+    border: none;
+    font-size: 30px;
+}
+
+
+.left {
+    height: 100vh;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left div {
+    display: flex;
+    flex-direction: column;
+}
+
+.left .icon {
+    margin-bottom: 10px;
+}
+
+.image {
+    background-image: 
+        linear-gradient(0deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0) 70%),
+        url(images/img-1.jpeg);
+        
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: 60% bottom;
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+.image-content {
+    margin-bottom: 50px;
+}
+
+.image h1 {
+    margin-bottom: 0%;
+}
+
+.image h2 {
+    margin: 0;
+}
+
+.image .icon {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    transform: scale(1);
+    transition: all .2s ease-out;
+}
+
+.image .icon:hover {
+    color: white;
+    
+    transform: scale(1.2);
+}
+
+
+.right {
+    background-color: rgb(30, 30, 30);
+    width: auto;
+    height: 100vh;
+    flex: 1 1;
+    padding: 10px 30px;
+}   
+
+.line {
+    opacity: 0.1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ci-color {
+    color: rgb(120, 195, 241);
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 50%;
+    margin-bottom: 40px;
+}
+
+.icon {
+    color: rgb(120, 195, 241);
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.material-symbols-outlined.md-18 { font-size: 18px; }
+.material-symbols-outlined.md-24 { font-size: 24px; }
+.material-symbols-outlined.md-36 { font-size: 36px; }
+.material-symbols-outlined.md-48 { font-size: 48px; }
